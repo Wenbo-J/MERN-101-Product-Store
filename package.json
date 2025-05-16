@@ -1,0 +1,20 @@
+{
+  "name": "mern-101-product-store",
+  "version": "1.0.0",
+  "description": "mern stack starter project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./backend/index.js"
+  },
+  "type": "module",
+  "author": "wenboj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
